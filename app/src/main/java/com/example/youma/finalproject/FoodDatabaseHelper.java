@@ -8,6 +8,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /*Reference: https://www.youtube.com/watch?v=SK98ayjhk1E  */
 
+/**
+ * this class is extends SQLiteOpenHelper to create the database that will store information
+ */
 public class FoodDatabaseHelper extends SQLiteOpenHelper {
 
     protected static final String ACTIVITY_NAME = "Favourite_list";

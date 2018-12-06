@@ -1,6 +1,7 @@
 package com.example.youma.finalproject;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,7 +30,7 @@ public class Food_fragment extends Activity {
 
     protected ProgressBar progressBar;
     protected TextView calorieTextView, proteinTextView, fatTextView, fiberTextView,foodlabelTextview;
-    protected Button saveButton;
+    protected Button saveButton,viewfoodbutton;
     String alltext;
     FoodDatabaseHelper foodDB;
     @Override
@@ -68,6 +69,16 @@ public class Food_fragment extends Activity {
                 AddData(alltext);
             }
         });
+
+        viewfoodbutton = (Button) findViewById(R.id.viewfoodfavourite);
+        viewfoodbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Food_fragment.this, Favourite_list.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 

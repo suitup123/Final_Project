@@ -47,6 +47,7 @@
         android:inputType="text" />
 
     <ListView
+        android:id="@+id/news_listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/searchnews"

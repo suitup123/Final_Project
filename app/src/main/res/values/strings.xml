@@ -58,7 +58,8 @@
     <string name="viewfavourite">View Favourite List</string>
 
     <string name="myname">Chi Mien Huynh</string>
-    <string name="dialog1">Enter the name of food and click search button to get nutrients of food. From ToolBar, you can choose the "Favouite list" to go to save list. Also, you can save the data to the list by click on the "saveButton"</string>
+    <string name="dialog1">Enter the name of food and click search button to get nutrients of food. From ToolBar, you can choose the "Favouite list" to go to save list. Also, you can save the data to the list by click on the "saveButton.
+        Also you can delete what you have saved by clicking the delete button"</string>
     <string name="foodversion">Version 1</string>
     <string name="errormessage">You need to enter a name of food</string>
     <string name="errormessage1">Saving data is successfull</string>
