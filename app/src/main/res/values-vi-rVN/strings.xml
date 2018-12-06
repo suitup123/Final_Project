@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FinalProject</string>
+    <string name="app_name">Bai lam Cuoi ki</string>
     <string name="search_button">Tìm Kiếm</string>
     <string name="search_text">Tìm trong khung này</string>
     <string name="property_image">Hình Poster</string>
@@ -32,5 +32,34 @@
     <string name="search_news">Tìm kiếm tin tức</string>
     <string name="search">Tìm</string>
     <string name="cbc_news">CBC News</string>
+
+    <string name="food_listview">food_listview</string>
+    <string name="food_progressBar">food_progressBar</string>
+    <string name="food_button">Tim Kiem</string>
+    <string name="food_edittext">food_edittext</string>
+
+    <string name="toast_nutrition">Chao mung tiem kiem chat dinh duong!</string>
+    <string name="toast_error">Khong the tim thay</string>
+
+    <string name="food_label">Ten</string>
+    <string name="calorie">Nang luong</string>
+    <string name="protein">Chat Dam</string>
+    <string name="fat">Chat Beo</string>
+    <string name="fiber">Chat xo</string>
+
+    <string name="favourite">Bang yeu thich</string>
+    <string name="help">Giup do</string>
+    <string name="save">Luu vao ua thich</string>
+    <string name="deletebutton">Xoa</string>
+    <string name="viewfavourite">Xem bang ua thich</string>
+
+    <string name="dialog1">Nhap ten thuc an va bam nut tim kiem de lay chat dinh duong cua do an. Tu Toolbar, co the chon "Bang yeu thich" de toi bang chua tat ca du lieu da luu lai</string>
+    <string name="foodversion">Phien ban 1</string>
+    <string name="errormessage">Ban can nhap thong tin cua thuc an</string>
+    <string name="errormessage1">Luu thanh cong</string>
+    <string name="errormessage2">Luu khong thanh cong</string>
+    <string name="cbc_news_reader">CBC News Reader</string>
+    <string name="cbc_news_reader_author">CBC News Reader by Kiet Tran</string>
+    <string name="cbc_news_instruction">Nhap tin muon tim va bam nut tim kiem</string>
 
 </resources>

@@ -31,4 +31,39 @@
     <string name="search_news">Search News</string>
     <string name="search">Search</string>
     <string name="cbc_news">CBC News</string>
+
+
+    <string name="food_listview">food_listview</string>
+    <string name="food_progressBar">food_progressBar</string>
+    <string name="food_button">SEARCH</string>
+    <string name="food_edittext">food_edittext</string>
+
+    <string name="food_ok">ok</string>
+
+    <string name="toast_nutrition">Welcome to nutrition search!</string>
+    <string name="toast_error">Can not found</string>
+
+
+    <string name="calorie">Calorie</string>
+    <string name="protein">Protein</string>
+    <string name="fat">Fat</string>
+    <string name="fiber">Fiber</string>
+    <string name="food_label">Label</string>
+    <string name="save">Save to favourite</string>
+
+    <string name="favourite">Favourite list</string>
+    <string name="help">Help</string>
+    <string name="food_about_dialog">Save to favourite</string>
+    <string name="deletebutton">Delete</string>
+    <string name="viewfavourite">View Favourite List</string>
+
+    <string name="myname">Chi Mien Huynh</string>
+    <string name="dialog1">Enter the name of food and click search button to get nutrients of food. From ToolBar, you can choose the "Favouite list" to go to save list. Also, you can save the data to the list by click on the "saveButton"</string>
+    <string name="foodversion">Version 1</string>
+    <string name="errormessage">You need to enter a name of food</string>
+    <string name="errormessage1">Saving data is successfull</string>
+    <string name="errormessage2">Saving data is not successfull</string>
+    <string name="cbc_news_reader">CBC News Reader</string>
+    <string name="cbc_news_reader_author">CBC News Reader by Kiet Tran</string>
+    <string name="cbc_news_instruction">Input news to read then click search to search for news</string>
 </resources>

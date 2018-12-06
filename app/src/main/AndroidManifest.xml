@@ -15,6 +15,10 @@
         <activity android:name="com.example.youma.finalproject.MovieInformation"></activity>
         <activity android:name="com.example.youma.finalproject.MovieInformationFragment" />
         <activity android:name="com.example.youma.finalproject.ToolbarActivities" />
+        <activity android:name="com.example.youma.finalproject.FoodInformation"/>
+        <activity android:name="com.example.youma.finalproject.Food_fragment" />
+        <activity android:name="com.example.youma.finalproject.Favourite_list"/>
+        <activity android:name="com.example.youma.finalproject.CbcnewsActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

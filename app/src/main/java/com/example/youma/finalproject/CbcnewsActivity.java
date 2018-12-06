@@ -1,9 +1,12 @@
 package com.example.youma.finalproject;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -41,13 +44,13 @@ public class CbcnewsActivity extends Activity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.news_toolbar);
         setActionBar(toolbar);
         final EditText searchedittext = (EditText) findViewById(R.id.new_search_edittext);
-        Button searchnews = (Button) findViewById(R.id.searchnews);
+        final Button searchnews = (Button) findViewById(R.id.searchnews);
         //Search for news
         searchnews.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                String search = searchedittext.getText().toString();
-
+                Snackbar.make(searchnews, R.string.searching, Snackbar.LENGTH_LONG).show();
             }
         });
 
@@ -67,11 +70,21 @@ public class CbcnewsActivity extends Activity {
                 toast.show();
                 break;
             case R.id.about:
+                Dialog alertDialog = createDialog();
+                alertDialog.show();
                 Toast.makeText(CbcnewsActivity.this, "Version 1.0, by Kiet Tran", Toast.LENGTH_LONG).show();
                 break;
 
         }
         return true;
+    }
+
+    public Dialog createDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(CbcnewsActivity.this);
+        LayoutInflater inflater = CbcnewsActivity.this.getLayoutInflater();
+        final View inflated = inflater.inflate(R.layout.custom_layout2, null);
+        builder.setView(inflated);
+        return builder.create();
     }
 
     private class CbcnewsQuery extends AsyncTask<String, Integer, String> {
@@ -104,14 +117,14 @@ public class CbcnewsActivity extends Activity {
                 parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
                 parser.setInput(inputStream, null);*/
                 int eventType = parser.getEventType();
-                boolean set = false;
+               boolean set = false;
                 while (eventType != XmlPullParser.END_DOCUMENT) {
                     if (eventType == XmlPullParser.START_TAG) {
                         String temp = parser.getName();
-                        if (parser.getName().equalsIgnoreCase("channel")) {
+                        if (parser.getName().equalsIgnoreCase("rss")) {
                             set = true;
-                        } else if (temp.equalsIgnoreCase("item") && set) {
-                            newsTitle = parser.nextText();
+                        } else if (temp.equalsIgnoreCase("channel") && set) {
+                            newsTitle = parser.getAttributeValue(null, "title");
                             publishProgress(25);
                             chatmessage.add(newsTitle);
                             Log.i("tiltle","link");

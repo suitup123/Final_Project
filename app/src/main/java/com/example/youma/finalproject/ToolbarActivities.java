@@ -54,11 +54,11 @@ public class ToolbarActivities extends Activity {
                 startActivity(intent);
                 break;
 
-//            case R.id.action_two:
-//                Log.d("Toolbar", "Option 2 selected");
-//                Intent intent2 = new Intent(ToolbarActivities.this, FoodInformation.class);
-//                startActivity(intent2);
-//
+            case R.id.action_two:
+                Log.d("Toolbar", "Option 2 selected");
+                Intent intent2 = new Intent(ToolbarActivities.this, FoodInformation.class);
+                startActivity(intent2);
+
             case R.id.action_three:
                 Log.d("Toolbar", "Option 3 selected");
                 Intent intent3 = new Intent(ToolbarActivities.this, CbcnewsActivity.class);

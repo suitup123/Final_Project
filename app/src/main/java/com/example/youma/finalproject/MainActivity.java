@@ -3,6 +3,7 @@ package com.example.youma.finalproject;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,20 +20,22 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         foodInfo = findViewById(R.id.food_author);
-        movieInfo= findViewById(R.id.movie_author);
-        cbcInfo  = findViewById(R.id.news_author);
+        movieInfo = findViewById(R.id.movie_author);
+        cbcInfo = findViewById(R.id.news_author);
 
-//        foodInfo.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent food_view = new Intent(MainActivity.this, FoodInformation.class);
-//            }
-//        });
+        foodInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent food_view = new Intent(MainActivity.this, FoodInformation.class);
+                startActivity(food_view);
+                Log.i("test", "onCreate");
+            }
+        });
 
         movieInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent movie_view= new Intent(MainActivity.this, MovieInformation.class);
+                Intent movie_view = new Intent(MainActivity.this, MovieInformation.class);
                 startActivity(movie_view);
             }
         });
