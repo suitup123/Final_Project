@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="search_button">Tìm Kiếm</string>
+    <string name="search_text">Tìm trong khung này</string>
+    <string name="property_image">Hình Poster</string>
+    <string name="movie_title">movie_title</string>
+    <string name="movie_description">movie_description</string>
+    <string name="movie_actors">movie_actors</string>
+    <string name="movie_year">movie_year</string>
+    <string name="movie_length">movie_length</string>
+    <string name="movie_genre">movie_genre</string>
+    <string name="movie_rating">movie_rating</string>
+    <string name="searching">Đang tìm phim...</string>
+    <string name="info">Thông tin</string>
+    <string name="movie_information">Movie Information</string>
+    <string name="movie_author">Movie Information làm bởi Ethan Nguyen</string>
+    <string name="version">Version 1</string>
+    <string name="instruction">Nhập tên phim bạn muốn tìm và bấm nút Tìm kiếm</string>
+    <string name="add_movie">Thêm vào mục</string>
+    <string name="favourite_list">Danh sách yêu thích</string>
+    <string name="add_list">Bạn có muốn thêm phim này vào danh sách yêu thích?</string>
+    <string name="dialog_title">Thêm phim</string>
+    <string name="ok">Có</string>
+    <string name="cancel">Không</string>
+    <string name="message">Thêm thành công</string>
+    <string name="other">Activities khác</string>
+    <string name="final_title">Đây là Final Project</string>
+    <string name="food_info_author">Food Information - Chi Mien Huynh</string>
+    <string name="movie_information_author">Movie Information - Nguyen Gia Nguyen</string>
+    <string name="cbc_information_author">CBC News Reader - Kiet Tran</string>
+    <string name="search_news">Tìm kiếm tin tức</string>
+    <string name="search">Tìm</string>
+    <string name="cbc_news">CBC News</string>
+
+</resources>

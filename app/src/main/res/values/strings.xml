@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="search_button">Search</string>
+    <string name="search_text">Search Here</string>
+    <string name="property_image">Poster Image</string>
+    <string name="movie_title">movie_title</string>
+    <string name="movie_description">movie_description</string>
+    <string name="movie_actors">movie_actors</string>
+    <string name="movie_year">movie_year</string>
+    <string name="movie_length">movie_length</string>
+    <string name="movie_genre">movie_genre</string>
+    <string name="movie_rating">movie_rating</string>
+    <string name="searching">Searching...</string>
+    <string name="info">Info</string>
+    <string name="movie_information">Movie Information</string>
+    <string name="movie_author">Movie Information made by Ethan Nguyen</string>
+    <string name="version">Version 1</string>
+    <string name="instruction">Input for a movie that you want to see information and click Search</string>
+    <string name="add_movie">Add</string>
+    <string name="favourite_list">Favourite</string>
+    <string name="add_list">Do you want to add this movie to your list?</string>
+    <string name="dialog_title">Add movie</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="message">Added successfully</string>
+    <string name="other">Other Activities</string>
+    <string name="final_title">This is the Final Project</string>
+    <string name="food_info_author">Food Information - Chi Mien Huynh</string>
+    <string name="movie_information_author">Movie Information - Nguyen Gia Nguyen</string>
+    <string name="cbc_information_author">CBC News Reader - Kiet Tran</string>
+    <string name="search_news">Search News</string>
+    <string name="search">Search</string>
+    <string name="cbc_news">CBC News</string>
 </resources>
